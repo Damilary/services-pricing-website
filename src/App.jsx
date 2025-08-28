@@ -1,4 +1,5 @@
 // filepath: src/App.jsx
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import './App.css'
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
                   Single Promo Reel (30s - 60s)
                 </h3>
                 <p className="text-gray-700 mb-2">
-                  Get a high-impact, short video to capture your audience's attention.
+                  Get a high-impact, short video to capture your audience\'s attention.
                 </p>
                 <p className="font-medium text-black">
                   Price: ₦12,000 ($8.57)
@@ -83,7 +84,7 @@ function App() {
                   Bumpa Setup and Management
                 </h3>
                 <p className="text-gray-700 mb-2">
-                  I'll set up and manage your Bumpa store, with 24/7 support included.
+                  I\'ll set up and manage your Bumpa store, with 24/7 support included.
                 </p>
                 <p className="font-medium text-black">
                   Price: ₦70,000 ($50.00) monthly
@@ -118,7 +119,7 @@ function App() {
                   Ad Campaign Setup
                 </h3>
                 <p className="text-gray-700 mb-2">
-                  I'll set up your campaign for success, so you just need to provide the budget.
+                  I\'ll set up your campaign for success, so you just need to provide the budget.
                 </p>
                 <p className="font-medium text-black">
                   Setup Fee: ₦20,000 ($14.29)
@@ -138,9 +139,11 @@ function App() {
           </section>
         </div>
       </div>
+      <SpeedInsights />
     </div>
   )
 }
 
 export default App
+
 
